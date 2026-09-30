@@ -1,0 +1,26 @@
+# Environments
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+env/
+.pytest_cache/
+
+# Logs
+*.log
+uvicorn_error.log
+uvicorn_output.log
+uvicorn_stderr.log
+uvicorn_stdout.log
+
+# Datasets (Prevent uploading massive raw data files)
+model-training/dataset_raw/
+model-training/dataset/
+
+# Jupyter
+.ipynb_checkpoints
